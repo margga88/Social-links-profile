@@ -1,0 +1,186 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/inter/v18/UcCm3FwrK3iLTcvnUwoT9nA2.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/inter/v18/UcCm3FwrK3iLTcvnUwQT9g.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcvsYwYL8g.woff2) format('woff2');
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwY.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+
+/* COMPOSITION */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    min-height: 100vh;
+    min-width: 320px;
+    padding: 5px;
+    background-color: var(--grey-900);
+}
+
+main {        
+    height: 557px;
+    width: 314px;
+    margin: 0 auto;
+}
+
+.card {    
+    width: 314px;
+    height: auto;
+    margin: 0 auto;
+}
+
+footer {    
+    position: absolute;
+    bottom: 5px;
+    height: 11px;
+    width: auto;
+}
+
+
+
+/* UTILITIES */
+
+.title-color {
+    color: var(--white);
+}
+
+.text-color-1 {
+    color: var(--green);
+}
+
+.text-color-2 {
+    color: var(--grey-800);
+}
+
+.title-text {
+    font-weight: var(--fw-700);
+}
+
+.text-common {
+    font-weight: var(--fw-400);
+}
+
+.text-medium {
+    font-weight: var(--fw-600);
+}
+
+
+
+
+/* BLOCK */
+
+.jessica-info {
+    text-align: center;
+}
+
+.profile-photo img {
+    border-radius: 90px;
+    width: 100px;
+    height: 100px;    
+}
+
+.jessica-info h1 {
+    letter-spacing: 1px;
+    font-size: 1.75rem;    
+}
+
+.jessica-info p {
+    margin-top: 40px;
+}
+
+.jessica-data {    
+    line-height: 10px;    
+}
+
+.jessica-data a {
+    text-decoration: none;
+}
+
+
+
+
+.links {
+    display: flex;    
+    flex-direction: column;    
+    align-items: center;
+    align-content: space-between;
+    text-align: center;
+}
+
+.links a {
+    height: 30px;
+    width: 300px;
+    color: var(--white);
+    background-color: var(--grey-700);
+    text-decoration: none;
+    margin-top: 15px;
+    padding-top: 10px;    
+    border-radius: 5px;   
+
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
+
+
+/* EXCEPTION */
