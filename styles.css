@@ -72,21 +72,31 @@ body {
 
 main {        
     height: 557px;
-    width: 314px;
+    width: 320px;
     margin: 0 auto;
+    padding-top: 5px;          
 }
 
-.card {    
-    width: 314px;
+.card {     
+    width: 320px;
     height: auto;
-    margin: 0 auto;
+    margin: 0 auto;           
+}
+
+.card-wrapper {
+    margin: 0 auto;   
+    width: 320px;
+    height: 557px;
+    bottom: 50px;
+    background-color: var(--grey-800);
+    border-radius: 12px;              
 }
 
 footer {    
     position: absolute;
     bottom: 5px;
     height: 11px;
-    width: auto;
+    width: auto;   
 }
 
 
@@ -105,10 +115,6 @@ footer {
     color: var(--grey-800);
 }
 
-.title-text {
-    font-weight: var(--fw-700);
-}
-
 .text-common {
     font-weight: var(--fw-400);
 }
@@ -124,21 +130,22 @@ footer {
 
 .jessica-info {
     text-align: center;
+    padding-top: 16px;
 }
 
 .profile-photo img {
     border-radius: 90px;
-    width: 100px;
-    height: 100px;    
+    width: 86px;
+    height: 86px;    
 }
 
 .jessica-info h1 {
     letter-spacing: 1px;
-    font-size: 1.75rem;    
+    font-size: 1.57rem;    
 }
 
 .jessica-info p {
-    margin-top: 40px;
+    margin-top: 34px;
 }
 
 .jessica-data {    
@@ -146,7 +153,8 @@ footer {
 }
 
 .jessica-data a {
-    text-decoration: none;
+    font-weight: var(--fw-700);
+    text-decoration: none;  
 }
 
 
@@ -161,15 +169,14 @@ footer {
 }
 
 .links a {
-    height: 30px;
-    width: 300px;
+    height: 32px;
+    width: 285px;
     color: var(--white);
     background-color: var(--grey-700);
     text-decoration: none;
     margin-top: 15px;
-    padding-top: 10px;    
-    border-radius: 5px;   
-
+    padding-top: 15px;    
+    border-radius: 5px; 
 }
 
 .attribution { 
@@ -184,3 +191,33 @@ footer {
 
 
 /* EXCEPTION */
+
+.links a:hover {
+    background-color: var(--green);
+    color: var(--grey-900);    
+}
+
+.links a:focus {
+    background-color: var(--green);    
+}
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    main {
+        padding-top: 58px;
+    }
+    
+    .card-wrapper {
+        background-color: lightgrey;
+    }
+    
+    main, .card, .card-wrapper{
+        width: 345px;
+        height: 575px;               
+    }
+    
+}
+
