@@ -207,17 +207,29 @@ footer {
 
 @media screen and (min-width: 1440px) {
     main {
-        padding-top: 58px;
-    }
-    
-    .card-wrapper {
-        background-color: lightgrey;
-    }
+        padding-top: 35px;
+    }      
     
     main, .card, .card-wrapper{
-        width: 345px;
-        height: 575px;               
+        width: 9.75cm;
+        height: 14.8cm;               
     }
+
+    .jessica-info {        
+        padding-top: 46px;
+    }
+    
+    .jessica-info p {
+        margin-top: 25px;    
+    }  
+
+    .links a {
+        width: 7.9cm;
+        height: 30px;
+        margin-top: 12.5px;
+        padding-top: 12.5px;
+    }
+  
     
 }
 
