@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Respository](https://github.com/margga88/Social-links-profile)
+- Solution URL: [Repository](https://github.com/margga88/Social-links-profile)
 - Live Site URL: [Live Here](https://margga88.github.io/Social-links-profile/)
 
 ## My process
