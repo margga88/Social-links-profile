@@ -50,11 +50,11 @@ Users should be able to:
 
 Taking the advice I've been receiving from the Frontend Mentor, I've applied most of the suggestioons, but especially the following:
 
-- _Cube CSS methodology_: I was suggested on my first project to start working under this methodology, which I didn't understand quite at the start, but then I've realized that I've unconsciously been applying it in part. Unfortunately, the first examples I took weren't that clear and I didn't get to apply this well on my previous project, until I finally hit with a good source that helped me.
+- **Cube CSS methodology**: I was suggested on my first project to start working under this methodology, which I didn't understand quite at the start, but then I've realized that I've unconsciously been applying it in part. Unfortunately, the first examples I took weren't that clear and I didn't get to apply this well on my previous project, until I finally hit with a good source that helped me.
 
 I loved applying it as soon as I understood it, and it kept my code cleaner to read and understand, as well as reusable which cut off the need for unnecessary code to solve the problem.
 
-- _Mobile-first workflow_: This was yet, another suggestion. I've been used to code mainly for desktops, so starting from mobile was quite an experience, some very good parts like the previous point, on avoiding unnecessary code, and some complicated like the screen sizes and queries, but that I saw easier at the end of the project than if these were written starting from the desktop size.
+- **Mobile-first workflow**: This was yet, another suggestion. I've been used to code mainly for desktops, so starting from mobile was quite an experience, some very good parts like the previous point, on avoiding unnecessary code, and some complicated like the screen sizes and queries, but that I saw easier at the end of the project than if these were written starting from the desktop size.
 
 
 ### Continued development
